@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <title>confirm</title>
+  </head>
+  <body>
+    <script>
+      function add() {
+        var reta = confirm("you go to back");
+        if (reta == true) {
+          document.write("exit");
+        } else {
+          document.write("no exit");
+        }
+      }
+      function promfunc(){
+        var retVal1=parseInt(prompt("Enter a number:","number here"));
+        var retVal2=parseInt(prompt("Enter another number:","number here"))
+        alert("sum=")+(retVal1+retVal2);
+    
+    
+    }
+    </script>
+    <button onclick="add()">click</button>
+  </body>
+</html>

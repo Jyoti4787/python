@@ -1,0 +1,66 @@
+<html>
+<head>
+<title> JS </title>
+<script>
+function displayAge(){
+let day=parseInt(document.getElementById('inp').value);
+if (day==1){
+alert('sunday');
+}
+else if(day==2){
+alert('Monday');
+}
+else if(day==3){
+alert('Tuesday');
+}
+else if(day==4){
+alert('Wednesday');
+}
+else if(day==5){
+alert('Thursday');
+}
+else if(day==6){
+alert('Friday');
+}
+else if(day==7){
+alert('Saturday');
+}
+else {
+alert('It is invalid');
+}
+
+}
+function promfunc(){
+    var retVal1=parseInt(prompt("Enter a number:","number here"));
+    var retVal2=parseInt(prompt("Enter another number:","number here"))
+    alert("sum=")+(retVal1+retVal2);
+
+
+}
+</script>
+</head>
+<body>
+<input type="text" id="inp" placeholder="Enter you day">
+<button onclick="displayAge()">Calculate</button>
+<img id="myimg" src="off.jpeg" alt="ClickButtonstoview" height="500px" width="500px">
+<button onclick="document.getElementById('myimg').src='on.jpeg'   " >turn on</button>
+<button onclick="document.getElementById('myimg').src='C:/Users/Dell/OneDrive/Desktop/New folder/article-2546363-1AFB247500000578-934_306x423.jpg';">turn off</button>
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+</html>
